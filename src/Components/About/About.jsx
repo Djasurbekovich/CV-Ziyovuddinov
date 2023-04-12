@@ -20,7 +20,7 @@ const About = () => {
           <div className="about__right">
             <img
               className="about__img"
-              src="src/assets/Imgs/my photo.jpg"
+              src="src/Imgs/my photo.jpg"
               alt="Image"
             />
           </div>

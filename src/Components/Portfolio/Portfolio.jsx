@@ -19,8 +19,8 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Prayer Times</h3>
                 <img
                   className="portfolio__img"
-                  src="src/assets/Imgs/Prayer-times.png"
-                  alt="Daily Prayer Times"
+                  src="src/Imgs/Prayer-times.png"
+                  alt="Daily-Prayer-Times"
                 />
                 <p className="portfolio__text">{t("portfolio-PrayerTimes")}</p>
               </li>
@@ -32,8 +32,8 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">UzAutoCars</h3>
                 <img
                   className="portfolio__img"
-                  src="src/assets/Imgs/Uz-cars.png"
-                  alt="Uz Cars"
+                  src="src/Imgs/Uz-cars.png"
+                  alt="Uz-Cars"
                 />
                 <p className="portfolio__text">{t("portfolio-UzCars")}</p>
               </li>
@@ -45,8 +45,8 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Products and Users</h3>
                 <img
                   className="portfolio__img"
-                  src="src/assets/Imgs/Products-and-Users.png"
-                  alt="Products and Users"
+                  src="src/Imgs/Products-and-Users.png"
+                  alt="Products-and-Users"
                 />
                 <p className="portfolio__text">
                   {t("portfolio-ProductsUsers")}
@@ -60,8 +60,8 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Who goes first ?!</h3>
                 <img
                   className="portfolio__img"
-                  src="src/assets/Imgs/Who-goes-first.png"
-                  alt="Who goes first"
+                  src="src/Imgs/Who-goes-first.png"
+                  alt="Who-goes-first"
                 />
                 <p className="portfolio__text">{t("portfolio-WhoGoesFirst")}</p>
               </li>
@@ -73,7 +73,7 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Clock</h3>
                 <img
                   className="portfolio__img"
-                  src="src/assets/Imgs/Clock.png"
+                  src="src/Imgs/Clock.png"
                   alt="Clock"
                 />
                 <p className="portfolio__text">{t("portfolio-clock")}</p>
@@ -86,7 +86,7 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Calculator</h3>
                 <img
                   className="portfolio__img"
-                  src="src/assets/Imgs/Conculator.png"
+                  src="src/Imgs/Calculator.png"
                   alt="Calculator"
                 />
                 <p className="portfolio__text">{t("portfolio-calculator")}</p>
@@ -99,7 +99,7 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Products</h3>
                 <img
                   className="portfolio__img"
-                  src="src/assets/Imgs/Products-API.png"
+                  src="src/Imgs/Products-API.png"
                   alt="Products"
                 />
                 <p className="portfolio__text">{t("portfolio-products")}</p>
@@ -114,8 +114,8 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Rick and Morty</h3>
                 <img
                   className="portfolio__img"
-                  src="src/assets/Imgs/Rick-and-Morty.png"
-                  alt="Rick and Morty"
+                  src="src/Imgs/Rick-and-Morty.png"
+                  alt="Rick-and-Morty"
                 />
                 <p className="portfolio__text">{t("portfolio-RickMorty")}</p>
               </li>
@@ -127,8 +127,8 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">To-Do</h3>
                 <img
                   className="portfolio__img"
-                  src="src/assets/Imgs/Todo.png"
-                  alt="Todo"
+                  src="src/Imgs/Todo.png"
+                  alt="To-do"
                 />
                 <p className="portfolio__text">{t("portfolio-todo")}</p>
               </li>
@@ -142,8 +142,8 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Trolley of Phones</h3>
                 <img
                   className="portfolio__img"
-                  src="src/assets/Imgs/Trolley-of-Phones.png"
-                  alt="Trolley of Phones"
+                  src="src/Imgs/Trolley-of-Phones.png"
+                  alt="Trolley-of-Phones"
                 />
                 <p className="portfolio__text">{t("portfolio-phones")}</p>
               </li>
@@ -155,7 +155,7 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Slider</h3>
                 <img
                   className="portfolio__img"
-                  src="src/assets/Imgs/Slider.png"
+                  src="src/Imgs/Slider.png"
                   alt="Slider"
                 />
                 <p className="portfolio__text">{t("portfolio-slider")}</p>
@@ -170,7 +170,7 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Pagination "GitHub"</h3>
                 <img
                   className="portfolio__img"
-                  src="src/assets/Imgs/Pagination.png"
+                  src="src/Imgs/Pagination.png"
                   alt="Pagination-GitHub"
                 />
                 <p className="portfolio__text">{t("portfolio-github")}</p>
