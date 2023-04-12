@@ -1,0 +1,85 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10rem;
+
+  &__left {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    opacity: 1;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    text-decoration: underline limegreen;
+    color: white;
+    margin-bottom: 3.125rem;
+  }
+  &__text {
+    width: 550px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: white;
+  }
+  &__right {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    opacity: 1;
+  }
+  &__img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about {
+    flex-direction: column;
+    padding-top: 8rem;
+  }
+  .about__left {
+    text-align: center;
+  }
+  .about__title {
+    font-size: 1.5rem;
+    margin: 0 auto 2rem;
+  }
+  .about__text {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin-bottom: 2rem;
+  }
+  .about__img {
+    width: 350px;
+    height: 350px;
+  }
+}

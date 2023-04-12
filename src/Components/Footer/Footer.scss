@@ -1,0 +1,60 @@
+.footer {
+  width: 100%;
+  background-color: rgba(33, 33, 33, 0.314);
+  backdrop-filter: blur(6px);
+  padding: 3rem 0 1.5rem;
+  margin-top: 10rem;
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  &__logo {
+    font-size: 2rem;
+    color: white;
+    span {
+      font-weight: bold;
+      color: limegreen;
+    }
+  }
+  &__icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  &__icon {
+    font-size: 2rem;
+    color: white;
+    &:hover {
+      cursor: pointer;
+      color: limegreen;
+    }
+    &:active {
+      color: green;
+    }
+  }
+  &__end {
+    text-align: center;
+  }
+  &__text {
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    color: white;
+    span {
+      text-decoration: underline;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .footer {
+    padding: 2rem 0 1.5rem;
+    margin-top: 7rem;
+  }
+}

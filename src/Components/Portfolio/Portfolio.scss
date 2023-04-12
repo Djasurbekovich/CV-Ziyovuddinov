@@ -1,0 +1,112 @@
+.portfolio {
+  padding-top: 10rem;
+
+  &__title {
+    font-weight: bold;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    margin-bottom: 5rem;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(33, 33, 33);
+    border-radius: 1rem;
+    padding: 20px 10px 15px;
+    z-index: 1;
+    transition: all 0.25s ease 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    opacity: 1;
+    &:hover {
+      background-color: green;
+      cursor: pointer;
+    }
+    &:hover img {
+      opacity: 1;
+    }
+  }
+  &__l-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+  &__img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    opacity: 0.7;
+  }
+  &__text {
+    font-weight: normal;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
+  a {
+    text-decoration: none;
+    z-index: 1;
+  }
+}
+
+.flipInX {
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+}
+
+@keyframes flipInX {
+  0% {
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+  0%,
+  40% {
+    animation-timing-function: ease-in;
+  }
+  40% {
+    transform: perspective(400px) rotateX(-10deg);
+  }
+  60% {
+    transform: perspective(400px) rotateX(10deg);
+    opacity: 1;
+  }
+  80% {
+    transform: perspective(400px) rotateX(0deg);
+  }
+  100% {
+    transform: perspective(400px);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .portfolio {
+    padding-top: 8rem;
+  }
+  .portfolio__title {
+    width: 320px;
+    font-size: 2rem;
+    border-bottom: 3px solid limegreen;
+    margin: 0 auto 4rem;
+  }
+  .portfolio__list {
+    justify-content: center;
+  }
+  .portfolio__img {
+    width: 350px;
+    height: 350px;
+  }
+}

@@ -1,0 +1,109 @@
+.contact {
+  padding-top: 10rem;
+
+  &__titles {
+    text-align: center;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    color: white;
+  }
+  &__text {
+    letter-spacing: 0.25px;
+    color: limegreen;
+    margin: 1.5rem 0 4rem;
+  }
+  &__btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    opacity: 1;
+  }
+  &__btn {
+    width: 410px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: "Varela Round", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.25px;
+    color: white;
+    background-color: limegreen;
+    border: none;
+    border-radius: 1rem;
+    &:hover {
+      cursor: pointer;
+      background-color: green;
+    }
+    &:active {
+      box-shadow: 1px 1px 10px green;
+    }
+  }
+  &__icon {
+    font-size: 2.5rem;
+  }
+  &__icon-tel {
+    font-size: 2rem;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translate3d(0, 100%, 0);
+  }
+  50% {
+    transform: translate3d(0, -50%, 0);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact {
+    padding-top: 8rem;
+  }
+  .contact__title {
+    width: 150px;
+    font-size: 2.5rem;
+    border-bottom: 3px solid limegreen;
+    margin: 0 auto;
+  }
+  .contact__text {
+    letter-spacing: 0.5px;
+  }
+  .contact__btns {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+  .contact__btn {
+    width: 350px;
+    height: 70px;
+    letter-spacing: 0.5px;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      transform: translate3d(0, 100%, 0);
+    }
+    50% {
+      transform: translate3d(0, -10%, 0);
+    }
+    100% {
+      transform: none;
+    }
+  }
+}
