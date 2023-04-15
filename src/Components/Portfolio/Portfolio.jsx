@@ -14,7 +14,7 @@ const Portfolio = () => {
         <h2 className="portfolio__title">{t("portfolio-title")}</h2>
         <ul className="portfolio__list">
           <AnimationOnScroll animateIn="flipInX">
-            <Link to="https://prayer-times-day.netlify.app" target="_blank">
+            <Link to="https://namoz-vaqtlari-uzb.netlify.app" target="_blank">
               <li className="portfolio__item">
                 <h3 className="portfolio__l-title">Prayer Times</h3>
                 <img
@@ -94,7 +94,7 @@ const Portfolio = () => {
             </Link>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="flipInX">
-            <Link to="https://products-api-js.netlify.app" target="_blank">
+            <Link to="https://products-render-api.netlify.app" target="_blank">
               <li className="portfolio__item">
                 <h3 className="portfolio__l-title">Products</h3>
                 <img

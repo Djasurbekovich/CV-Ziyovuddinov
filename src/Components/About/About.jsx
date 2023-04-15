@@ -3,6 +3,7 @@ import Container from "../../Utils/Container/Container";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { useTranslation } from "react-i18next";
 import "./About.scss";
+import MyPhoto from "../../Imgs/my-photo.jpg";
 
 const About = () => {
   const { t } = useTranslation();
@@ -18,11 +19,7 @@ const About = () => {
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="fadeInRight">
           <div className="about__right">
-            <img
-              className="about__img"
-              src="src/Imgs/my photo.jpg"
-              alt="Image"
-            />
+            <img className="about__img" src={MyPhoto} alt="Image" />
           </div>
         </AnimationOnScroll>
       </section>
