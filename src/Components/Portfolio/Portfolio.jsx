@@ -3,6 +3,18 @@ import { Link } from "react-router-dom";
 import Container from "../../Utils/Container/Container";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { useTranslation } from "react-i18next";
+import PrayerTimes from "../../Assets/Imgs/Prayer-times.png";
+import UzCars from "../../Assets/Imgs/Uz-cars.png";
+import ProductsUsers from "../../Assets/Imgs/Products-and-Users.png";
+import WhoGoesFirst from "../../Assets/Imgs/Who-goes-first.png";
+import Clock from "../../Assets/Imgs/Clock.png";
+import Calculator from "../../Assets/Imgs/Calculator.png";
+import Products from "../../Assets/Imgs/Products-API.png";
+import RickMorty from "../../Assets/Imgs/Rick-and-Morty.png";
+import ToDo from "../../Assets/Imgs/Todo.png";
+import PhonesCart from "../../Assets/Imgs/Trolley-of-Phones.png";
+import Slider from "../../Assets/Imgs/Slider.png";
+import GitHub from "../../Assets/Imgs/Pagination.png";
 import "./Portfolio.scss";
 
 const Portfolio = () => {
@@ -19,7 +31,7 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Prayer Times</h3>
                 <img
                   className="portfolio__img"
-                  src="src/Imgs/Prayer-times.png"
+                  src={PrayerTimes}
                   alt="Daily-Prayer-Times"
                 />
                 <p className="portfolio__text">{t("portfolio-PrayerTimes")}</p>
@@ -30,11 +42,7 @@ const Portfolio = () => {
             <Link to="https://uz-cars.netlify.app" target="_blank">
               <li className="portfolio__item">
                 <h3 className="portfolio__l-title">UzAutoCars</h3>
-                <img
-                  className="portfolio__img"
-                  src="src/Imgs/Uz-cars.png"
-                  alt="Uz-Cars"
-                />
+                <img className="portfolio__img" src={UzCars} alt="Uz-Cars" />
                 <p className="portfolio__text">{t("portfolio-UzCars")}</p>
               </li>
             </Link>
@@ -45,7 +53,7 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Products and Users</h3>
                 <img
                   className="portfolio__img"
-                  src="src/Imgs/Products-and-Users.png"
+                  src={ProductsUsers}
                   alt="Products-and-Users"
                 />
                 <p className="portfolio__text">
@@ -60,7 +68,7 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Who goes first ?!</h3>
                 <img
                   className="portfolio__img"
-                  src="src/Imgs/Who-goes-first.png"
+                  src={WhoGoesFirst}
                   alt="Who-goes-first"
                 />
                 <p className="portfolio__text">{t("portfolio-WhoGoesFirst")}</p>
@@ -71,11 +79,7 @@ const Portfolio = () => {
             <Link to="https://clock-uz-tash.netlify.app" target="_blank">
               <li className="portfolio__item">
                 <h3 className="portfolio__l-title">Clock</h3>
-                <img
-                  className="portfolio__img"
-                  src="src/Imgs/Clock.png"
-                  alt="Clock"
-                />
+                <img className="portfolio__img" src={Clock} alt="Clock" />
                 <p className="portfolio__text">{t("portfolio-clock")}</p>
               </li>
             </Link>
@@ -86,7 +90,7 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Calculator</h3>
                 <img
                   className="portfolio__img"
-                  src="src/Imgs/Calculator.png"
+                  src={Calculator}
                   alt="Calculator"
                 />
                 <p className="portfolio__text">{t("portfolio-calculator")}</p>
@@ -97,11 +101,7 @@ const Portfolio = () => {
             <Link to="https://products-render-api.netlify.app" target="_blank">
               <li className="portfolio__item">
                 <h3 className="portfolio__l-title">Products</h3>
-                <img
-                  className="portfolio__img"
-                  src="src/Imgs/Products-API.png"
-                  alt="Products"
-                />
+                <img className="portfolio__img" src={Products} alt="Products" />
                 <p className="portfolio__text">{t("portfolio-products")}</p>
               </li>
             </Link>
@@ -114,7 +114,7 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Rick and Morty</h3>
                 <img
                   className="portfolio__img"
-                  src="src/Imgs/Rick-and-Morty.png"
+                  src={RickMorty}
                   alt="Rick-and-Morty"
                 />
                 <p className="portfolio__text">{t("portfolio-RickMorty")}</p>
@@ -125,11 +125,7 @@ const Portfolio = () => {
             <Link to="https://todo-react-js-01.netlify.app" target="_blank">
               <li className="portfolio__item">
                 <h3 className="portfolio__l-title">To-Do</h3>
-                <img
-                  className="portfolio__img"
-                  src="src/Imgs/Todo.png"
-                  alt="To-do"
-                />
+                <img className="portfolio__img" src={ToDo} alt="To-do" />
                 <p className="portfolio__text">{t("portfolio-todo")}</p>
               </li>
             </Link>
@@ -142,7 +138,7 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Trolley of Phones</h3>
                 <img
                   className="portfolio__img"
-                  src="src/Imgs/Trolley-of-Phones.png"
+                  src={PhonesCart}
                   alt="Trolley-of-Phones"
                 />
                 <p className="portfolio__text">{t("portfolio-phones")}</p>
@@ -153,11 +149,7 @@ const Portfolio = () => {
             <Link to="https://slider-react-js-01.netlify.app" target="_blank">
               <li className="portfolio__item">
                 <h3 className="portfolio__l-title">Slider</h3>
-                <img
-                  className="portfolio__img"
-                  src="src/Imgs/Slider.png"
-                  alt="Slider"
-                />
+                <img className="portfolio__img" src={Slider} alt="Slider" />
                 <p className="portfolio__text">{t("portfolio-slider")}</p>
               </li>
             </Link>
@@ -170,7 +162,7 @@ const Portfolio = () => {
                 <h3 className="portfolio__l-title">Pagination "GitHub"</h3>
                 <img
                   className="portfolio__img"
-                  src="src/Imgs/Pagination.png"
+                  src={GitHub}
                   alt="Pagination-GitHub"
                 />
                 <p className="portfolio__text">{t("portfolio-github")}</p>

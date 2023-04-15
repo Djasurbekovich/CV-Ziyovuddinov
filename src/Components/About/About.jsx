@@ -2,8 +2,8 @@ import React from "react";
 import Container from "../../Utils/Container/Container";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { useTranslation } from "react-i18next";
+import MyPhoto from "../../Assets/Imgs/my photo.jpg";
 import "./About.scss";
-import MyPhoto from "../../Imgs/my-photo.jpg";
 
 const About = () => {
   const { t } = useTranslation();
