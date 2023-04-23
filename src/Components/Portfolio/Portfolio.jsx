@@ -4,14 +4,14 @@ import Container from "../../Utils/Container/Container";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { useTranslation } from "react-i18next";
 import PrayerTimes from "../../Assets/Imgs/Prayer-times.png";
-import UzCars from "../../Assets/Imgs/Uz-cars.png";
+import Chat from "../../Assets/Imgs/Chat.png";
 import ProductsUsers from "../../Assets/Imgs/Products-and-Users.png";
-import WhoGoesFirst from "../../Assets/Imgs/Who-goes-first.png";
+import ToDo from "../../Assets/Imgs/To-Do-List.png";
 import Clock from "../../Assets/Imgs/Clock.png";
-import Calculator from "../../Assets/Imgs/Calculator.png";
-import Products from "../../Assets/Imgs/Products-API.png";
+import Calculator from "../../Assets/Imgs/Calc-Pro.png";
+import UzCars from "../../Assets/Imgs/Uz-cars.png";
 import RickMorty from "../../Assets/Imgs/Rick-and-Morty.png";
-import ToDo from "../../Assets/Imgs/Todo.png";
+import WhoGoesFirst from "../../Assets/Imgs/Who-goes-first.png";
 import PhonesCart from "../../Assets/Imgs/Trolley-of-Phones.png";
 import Slider from "../../Assets/Imgs/Slider.png";
 import GitHub from "../../Assets/Imgs/Pagination.png";
@@ -39,11 +39,17 @@ const Portfolio = () => {
             </Link>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="flipInX">
-            <Link to="https://uz-cars.netlify.app" target="_blank">
+            <Link
+              to="https://chat-with-celebrities.netlify.app"
+              target="_blank">
               <li className="portfolio__item">
-                <h3 className="portfolio__l-title">UzAutoCars</h3>
-                <img className="portfolio__img" src={UzCars} alt="Uz-Cars" />
-                <p className="portfolio__text">{t("portfolio-UzCars")}</p>
+                <h3 className="portfolio__l-title">Chat with Celebrities</h3>
+                <img
+                  className="portfolio__img"
+                  src={Chat}
+                  alt="Chat with Celebrities"
+                />
+                <p className="portfolio__text">{t("portfolio-chat")}</p>
               </li>
             </Link>
           </AnimationOnScroll>
@@ -63,15 +69,11 @@ const Portfolio = () => {
             </Link>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="flipInX">
-            <Link to="https://who-goes-first.netlify.app" target="_blank">
+            <Link to="https://to-do-list-ez.netlify.app" target="_blank">
               <li className="portfolio__item">
-                <h3 className="portfolio__l-title">Who goes first ?!</h3>
-                <img
-                  className="portfolio__img"
-                  src={WhoGoesFirst}
-                  alt="Who-goes-first"
-                />
-                <p className="portfolio__text">{t("portfolio-WhoGoesFirst")}</p>
+                <h3 className="portfolio__l-title">To-Do</h3>
+                <img className="portfolio__img" src={ToDo} alt="To-Do List" />
+                <p className="portfolio__text">{t("portfolio-todo")}</p>
               </li>
             </Link>
           </AnimationOnScroll>
@@ -85,7 +87,7 @@ const Portfolio = () => {
             </Link>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="flipInX">
-            <Link to="https://ez-conculator.netlify.app" target="_blank">
+            <Link to="https://calculator-pro-ez.netlify.app" target="_blank">
               <li className="portfolio__item">
                 <h3 className="portfolio__l-title">Calculator</h3>
                 <img
@@ -98,11 +100,11 @@ const Portfolio = () => {
             </Link>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="flipInX">
-            <Link to="https://products-render-api.netlify.app" target="_blank">
+            <Link to="https://uz-cars.netlify.app" target="_blank">
               <li className="portfolio__item">
-                <h3 className="portfolio__l-title">Products</h3>
-                <img className="portfolio__img" src={Products} alt="Products" />
-                <p className="portfolio__text">{t("portfolio-products")}</p>
+                <h3 className="portfolio__l-title">UzAutoCars</h3>
+                <img className="portfolio__img" src={UzCars} alt="Uz-Cars" />
+                <p className="portfolio__text">{t("portfolio-UzCars")}</p>
               </li>
             </Link>
           </AnimationOnScroll>
@@ -122,11 +124,15 @@ const Portfolio = () => {
             </Link>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="flipInX">
-            <Link to="https://todo-react-js-01.netlify.app" target="_blank">
+            <Link to="https://who-goes-first.netlify.app" target="_blank">
               <li className="portfolio__item">
-                <h3 className="portfolio__l-title">To-Do</h3>
-                <img className="portfolio__img" src={ToDo} alt="To-do" />
-                <p className="portfolio__text">{t("portfolio-todo")}</p>
+                <h3 className="portfolio__l-title">Who goes first ?!</h3>
+                <img
+                  className="portfolio__img"
+                  src={WhoGoesFirst}
+                  alt="Who-goes-first"
+                />
+                <p className="portfolio__text">{t("portfolio-WhoGoesFirst")}</p>
               </li>
             </Link>
           </AnimationOnScroll>
