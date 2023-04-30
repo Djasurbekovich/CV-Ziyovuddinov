@@ -30,7 +30,7 @@ const Contact = () => {
                 <FaPhoneAlt className="contact__icon-tel" /> (90) 901-49-59
               </button>
             </Link>
-            <Link to="https://t.me/XnetvoyurovenX" target="_blank">
+            <Link to="https://t.me/ziyovuddinovv7" target="_blank">
               <button className="contact__btn">
                 <FaTelegramPlane className="contact__icon" /> Elmurod
                 Ziyovuddinov

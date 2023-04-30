@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
           </a>
           <div className="footer__icons">
-            <Link to="https://t.me/XnetvoyurovenX" target="_blank">
+            <Link to="https://t.me/ziyovuddinovv7" target="_blank">
               <FaTelegram className="footer__icon" />
             </Link>
             <Link to="https://instagram.com/ziyovuddinov_v7" target="_blank">
@@ -35,7 +35,7 @@ const Footer = () => {
           <strong className="footer__text">
             This site was created by{" "}
             <Link
-              to="https://t.me/XnetvoyurovenX"
+              to="https://t.me/ziyovuddinovv7"
               target="_blank"
               style={{ color: "limegreen" }}>
               <span>me</span>
