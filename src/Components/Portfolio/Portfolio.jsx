@@ -4,12 +4,12 @@ import Container from "../../Utils/Container/Container";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { useTranslation } from "react-i18next";
 import PrayerTimes from "../../Assets/Imgs/Prayer-times.png";
+import CRMschool from "../../Assets/Imgs/CRM-school.png";
 import Chat from "../../Assets/Imgs/Chat.png";
-import ProductsUsers from "../../Assets/Imgs/Products-and-Users.png";
 import ToDo from "../../Assets/Imgs/To-Do-List.png";
 import Clock from "../../Assets/Imgs/Clock.png";
 import Calculator from "../../Assets/Imgs/Calc-Pro.png";
-import UzCars from "../../Assets/Imgs/Uz-cars.png";
+import ProductsUsers from "../../Assets/Imgs/Products-and-Users.png";
 import RickMorty from "../../Assets/Imgs/Rick-and-Morty.png";
 import WhoGoesFirst from "../../Assets/Imgs/Who-goes-first.png";
 import PhonesCart from "../../Assets/Imgs/Trolley-of-Phones.png";
@@ -39,6 +39,19 @@ const Portfolio = () => {
             </Link>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="flipInX">
+            <Link to="https://crm-school.vercel.app/" target="_blank">
+              <li className="portfolio__item">
+                <h3 className="portfolio__l-title">CRM-school</h3>
+                <img
+                  className="portfolio__img"
+                  src={CRMschool}
+                  alt="CRM-school"
+                />
+                <p className="portfolio__text">{t("portfolio-crm")}</p>
+              </li>
+            </Link>
+          </AnimationOnScroll>
+          <AnimationOnScroll animateIn="flipInX">
             <Link
               to="https://chat-with-celebrities.netlify.app"
               target="_blank">
@@ -50,21 +63,6 @@ const Portfolio = () => {
                   alt="Chat with Celebrities"
                 />
                 <p className="portfolio__text">{t("portfolio-chat")}</p>
-              </li>
-            </Link>
-          </AnimationOnScroll>
-          <AnimationOnScroll animateIn="flipInX">
-            <Link to="https://products-and-users.netlify.app" target="_blank">
-              <li className="portfolio__item">
-                <h3 className="portfolio__l-title">Products and Users</h3>
-                <img
-                  className="portfolio__img"
-                  src={ProductsUsers}
-                  alt="Products-and-Users"
-                />
-                <p className="portfolio__text">
-                  {t("portfolio-ProductsUsers")}
-                </p>
               </li>
             </Link>
           </AnimationOnScroll>
@@ -100,11 +98,17 @@ const Portfolio = () => {
             </Link>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="flipInX">
-            <Link to="https://uz-cars.netlify.app" target="_blank">
+            <Link to="https://products-and-users.netlify.app" target="_blank">
               <li className="portfolio__item">
-                <h3 className="portfolio__l-title">UzAutoCars</h3>
-                <img className="portfolio__img" src={UzCars} alt="Uz-Cars" />
-                <p className="portfolio__text">{t("portfolio-UzCars")}</p>
+                <h3 className="portfolio__l-title">Products and Users</h3>
+                <img
+                  className="portfolio__img"
+                  src={ProductsUsers}
+                  alt="Products-and-Users"
+                />
+                <p className="portfolio__text">
+                  {t("portfolio-ProductsUsers")}
+                </p>
               </li>
             </Link>
           </AnimationOnScroll>

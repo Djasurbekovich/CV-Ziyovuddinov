@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 5rem;
+  padding: 0 5rem;
   background-color: rgba(33, 33, 33, 0.314);
   backdrop-filter: blur(6px);
   position: fixed;
@@ -13,12 +13,10 @@
   box-sizing: border-box;
 
   &__logo {
-    font-size: 2rem;
-    color: white;
-    span {
-      font-weight: bold;
-      color: limegreen;
-    }
+    width: 250px;
+    height: 110px;
+    object-fit: cover;
+    display: flex;
   }
   &__lang {
     font-family: "Varela Round", sans-serif;
@@ -70,7 +68,7 @@ button {
 .nav-menu .toggle {
   position: fixed;
   top: 2rem;
-  right: 0.5rem;
+  right: 1rem;
   color: white;
   background: transparent;
   border: none;
@@ -164,7 +162,11 @@ button {
 
 @media only screen and (max-width: 450px) {
   .nav {
-    padding: 2rem 1.5rem 2rem 1rem;
+    padding: 0 2rem 0 1rem;
+  }
+  .nav__logo {
+    width: 170px;
+    height: 100px;
   }
   .nav__lang {
     font-size: 1rem;

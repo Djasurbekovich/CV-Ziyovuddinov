@@ -5,6 +5,7 @@ import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { BsMoonStarsFill, BsSunFill } from "react-icons/bs";
 import { ThemeContext, themes } from "../../Context/ThemeContext";
+import Logo from "../../Assets/Imgs/ziyovuddinov.png";
 import "./Header.scss";
 
 const Navbar = () => {
@@ -36,9 +37,7 @@ const Navbar = () => {
     <nav className="nav">
       <a href="#home">
         <div>
-          <strong className="nav__logo">
-            <span>Z.</span>Elmurod
-          </strong>
+          <img className="nav__logo" src={Logo} alt="Ziyovuddinov" />
         </div>
       </a>
       <select className="nav__lang" onChange={handleChangeLanguage}>

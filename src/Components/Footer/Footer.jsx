@@ -3,6 +3,7 @@ import Container from "../../Utils/Container/Container";
 import { Link } from "react-router-dom";
 import { FaTelegram, FaFacebookSquare } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
+import Logo from "../../Assets/Imgs/ziyovuddinov.png";
 import "./Footer.scss";
 
 const Footer = () => {
@@ -12,9 +13,7 @@ const Footer = () => {
         <div className="footer__wrap">
           <a href="#home">
             <div>
-              <strong className="footer__logo">
-                <span>Z.</span>Elmurod
-              </strong>
+              <img className="footer__logo" src={Logo} alt="Ziyovuddinov" />
             </div>
           </a>
           <div className="footer__icons">
